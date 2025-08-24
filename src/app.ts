@@ -52,7 +52,7 @@ setupWebSocket(server);
 
 // Middleware setup
 app.use(cors({
-  origin: ["http://localhost:3000", "https://update.simpleroomsng.com","https://simpleroomsng.com"],
+  origin: ["http://localhost:3000", "https://update.simpleroomsng.com","https://simpleroomsng.com","https://admin.simpleroomsng.com","https://www.admin.simpleroomsng.com","https://www.update.simpleroomsng.com","https://www.simpleroomsng.com"],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
